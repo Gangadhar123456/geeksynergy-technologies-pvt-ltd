@@ -1,0 +1,75 @@
+
+.ItemContainerMain{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin:  5px;
+    padding: 0% auto;
+}
+li {
+    list-style: none;
+    display: flex;
+
+  }
+  .ItemContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin: 3px;
+    width:25vw ;
+  }
+  
+  img {
+    margin: 0%;
+    padding: 0%;
+    width: 219px;
+    height: 317px;
+    object-fit: cover; 
+    display: block;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    flex-wrap: wrap;
+    max-width: 219px;
+  }
+  h1{
+    color: #333;
+    font-family: 'Roboto';
+  }
+  
+  .forColore{
+    color: rgb(40, 169, 169);
+  }
+  
+  
+  .watchTrainerButton{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .watchTrainerButton{
+    background-color: #0056b3;
+  }
+  .leftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    margin-right: 5px;
+  }
+  
+  

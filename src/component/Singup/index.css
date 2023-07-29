@@ -1,0 +1,78 @@
+/* App.css */
+
+.signinContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+  
+  .signinContainer {
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .signinContainer form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    padding-right: 40px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .signinContainer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .signinContainer .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .signinContainer label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .signinContainer input[type='text'],
+  .signinContainer input[type='password'],
+  .signinContainer input[type='email'],
+  .signinContainer input[type='tel'],
+  .signinContainer select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .signinContainer select {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+    width: 105%;
+  }
+  
+  .signinContainer button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .signinContainer button:hover {
+    background-color: #0056b3;
+  }
+  
